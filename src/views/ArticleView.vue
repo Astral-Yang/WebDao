@@ -63,7 +63,7 @@ const article = ref({
   like: [],
   weight: 0,
 })
-const host = 'https://server.astralcyber.top'
+const host = 'https://server.asgardion.space'
 let index = -1;
 
 const myHeaders = new Headers()
