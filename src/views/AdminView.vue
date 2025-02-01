@@ -172,7 +172,7 @@ const article = ref({
   weight: 0,
 })
 
-const host = "https://server.astralcyber.top";
+const host = "https://server.asgardion.space";
 const myHeaders = new Headers()
 myHeaders.append("Content-Type", "application/json")
 
@@ -194,7 +194,7 @@ async function openEditor(id) {
 }
 
 function fenye(current) {
-  const host = "https://server.astralcyber.top";
+  const host = "https://server.asgardion.space";
   const myHeaders = new Headers()
   myHeaders.append("Content-Type", "application/json")
   let requestOptions = {
