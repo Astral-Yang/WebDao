@@ -102,7 +102,7 @@ const route = useRoute()
 const total = ref('')
 const tableData = ref('')
 const page = ref(parseInt(route.params.page || 1))
-let imgApi = 'https://source.unsplash.com/random/900x600/?desktop,wallparper'
+let imgApi = 'https://api.592.us.kg/liulan/?id=gqbz'
 
 function fenye(current) {
   const host = "https://server.asgardion.space";
@@ -178,7 +178,7 @@ function articleImg(id) {
   //       url = res.data.urls.full;
   //     }.bind(this));
   // return url;
-  return imgApi + ',' + id + ')';
+  return imgApi + `&time=${id}`;
 }
 
 </script>

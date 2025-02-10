@@ -49,7 +49,7 @@ const id = ref('')
 // const station = ref(globalProperties.$reload.value)
 const route = useRoute();
 const router = useRouter();
-const host = 'https://server.astralcyber.top'
+const host = 'https://server.asgardion.space'
 const myHeaders = new Headers()
 myHeaders.append("Content-Type", "application/json")
 

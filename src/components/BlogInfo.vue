@@ -78,7 +78,7 @@ async function toHot(id) {
 
 
 function getHot() {
-  const host = "https://server.astralcyber.top";
+  const host = "https://server.asgardion.space";
   const myHeaders = new Headers()
   myHeaders.append("Content-Type", "application/json")
   let requestOptions = {
@@ -94,7 +94,7 @@ function getHot() {
 }
 
 function getLate() {
-  const host = "https://server.astralcyber.top";
+  const host = "https://server.asgardion.space";
   const myHeaders = new Headers()
   myHeaders.append("Content-Type", "application/json")
   let requestOptions = {

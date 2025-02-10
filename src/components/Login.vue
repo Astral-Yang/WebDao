@@ -10,7 +10,7 @@ const router = useRouter()
 const route = useRoute()
 const user = ref('')
 const password = ref('')
-const host = 'https://server.astralcyber.top'
+const host = 'https://server.asgardion.space'
 const yan = ref('')
 
 onBeforeMount(() => {

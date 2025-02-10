@@ -200,7 +200,7 @@ import {ElMessage, ElMessageBox} from "element-plus";
 
 const globalProperties = useGetGlobalProperties();
 const activeName = ref('first')
-const host = 'https://server.astralcyber.top'
+const host = 'https://server.asgardion.space'
 const route = useRoute()
 const router = useRouter()
 const ChangeTableVisible = ref(false)
