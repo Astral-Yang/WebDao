@@ -126,7 +126,7 @@
                  src="https://cdn.jsdelivr.net/gh/Astral-Cyber/PicImg/blog/%E5%93%81%E7%89%8C%E6%A0%87%E8%AF%86_telegram.svg"/>
           </a>
         </el-row>
-        <el-divider style="margin:12px 0px !important;"/>
+        <el-divider style="margin:12px 0 !important;"/>
         <div id="operate">
 
           <el-button type="danger" size="large" @click="exit">退出</el-button>
@@ -170,7 +170,7 @@
             <template style="width: min-content" #prepend>Telegram</template>
           </el-input>
         </el-row>
-        <el-divider style="margin:11px 0px 12px 0px !important;"/>
+        <el-divider style="margin:11px 0 12px 0 !important;"/>
         <div id="operate">
           <el-link type="danger" style="margin-right: 10px" @click="ChangeTableVisible=!ChangeTableVisible">修改密码
           </el-link>
@@ -180,7 +180,7 @@
 
       <el-tab-pane class="ele" name="third">
         <template #label>
-          <!--          <el-icon style="transform: translate(0px,4px)" size="18"><MessageBox /></el-icon>-->
+          <!--          <el-icon style="transform: translate(0,4px)" size="18"><MessageBox /></el-icon>-->
           稿纸(新建文章)
         </template>
       </el-tab-pane>

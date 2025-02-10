@@ -79,7 +79,7 @@ function login() {
   <el-row style="line-height: 34px;font-weight: bolder; font-size: 16px;height: 74px;overflow: auto">
     <span v-text="yan" id="yiyan"></span>
   </el-row>
-  <el-divider style="margin:12px 0px !important;"/>
+  <el-divider style="margin:12px 0 !important;"/>
   <div id="operate">
     <el-button type="primary" size="large" @click="login(true)">登录</el-button>
   </div>
@@ -95,7 +95,7 @@ function login() {
 }
 
 #yiyan {
-  margin: 3px 0px 3px 0px;
+  margin: 3px 0 3px 0;
   color: #666666;
   white-space: pre-wrap;
   overflow: hidden;

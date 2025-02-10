@@ -199,7 +199,7 @@ pagination {
 .articleCard {
   box-shadow: 0 1px 20px -6px rgb(0 0 0 / 50%);
   border-radius: 10px !important;
-  --el-card-padding: 0px !important;
+  --el-card-padding: 0 !important;
 }
 
 .articleCard:hover {

@@ -92,7 +92,7 @@ body {
 #sakana-widget {
     width: 120px;
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     right: -4px;
 }
 
@@ -133,7 +133,7 @@ body {
 #personCard {
     box-shadow: 0 1px 20px -6px rgb(0 0 0 / 50%);
     border-radius: 10px !important;
-    --el-card-padding: 0px !important;
+    --el-card-padding: 0 !important;
     margin: 15px;
     width: 20vw;
     height: max-content;
@@ -152,7 +152,7 @@ body {
     color: #777777;
     width:99%;
     display:block;
-    padding: 2px 0px 0px 5px;
+    padding: 2px 0 0 5px;
     white-space:pre-wrap;
     word-break:break-all;
     word-wrap:break-word;
@@ -166,13 +166,13 @@ body {
     width: 8vw;
     height: 8vw;
     position: absolute;
-    top: 0px;
+    top: 0;
     left: 50%;
     transform: translate(-50%);
 }
 
 .el-tabs__item {
-    padding: 0px !important;
+    padding: 0 !important;
     margin-left: 20px !important;
 }
 
@@ -189,7 +189,7 @@ body {
 }
 
 .el-dialog__body {
-    padding: 0px 20px 20px  20px !important;
+    padding: 0 20px 20px  20px !important;
 }
 
 .el-tabs__nav-prev {

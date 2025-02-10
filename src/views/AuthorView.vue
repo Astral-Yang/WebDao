@@ -151,7 +151,7 @@ const total = ref()
 const tableData = ref([]);
 const allData = ref([]);
 const page = ref(parseInt(route.params.page || 1))
-let imgApi = 'https://source.unsplash.com/random/900x600/?desktop,wallparper'
+let imgApi = 'https://api.592.us.kg/api?id=gqbz'
 
 const article = ref({
   id: '',
@@ -390,7 +390,7 @@ function articleImg(id) {
   //       url = res.data.urls.full;
   //     }.bind(this));
   // return url;
-  return imgApi  + ',' + id + ')';
+  return imgApi + `&time=${id}`;
 }
 
 </script>
@@ -418,7 +418,7 @@ pagination {
 .articleCard {
   box-shadow: 0 1px 20px -6px rgb(0 0 0 / 50%);
   border-radius: 10px !important;
-  --el-card-padding: 0px !important;
+  --el-card-padding: 0 !important;
 }
 
 .articleCard:hover {

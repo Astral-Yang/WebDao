@@ -91,7 +91,7 @@ function register() {
       />
     </el-col>
   </el-row>
-  <el-divider style="margin:12px 0px !important;"/>
+  <el-divider style="margin:12px 0 !important;"/>
   <div id="operate">
     <el-button type="primary" size="large" @click="register">注册</el-button>
   </div>

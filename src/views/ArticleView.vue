@@ -34,7 +34,7 @@
   </el-row>
   <el-divider id="divider" border-style="dashed" content-position="left"/>
   <!--      @copy-code-success="handleCopyCodeSuccess"-->
-  <el-card style="border-radius: 10px !important;--el-card-padding: 0px !important;">
+  <el-card style="border-radius: 10px !important;--el-card-padding: 0 !important;">
     <v-md-preview :text="article.content"></v-md-preview>
   </el-card>
 </template>
