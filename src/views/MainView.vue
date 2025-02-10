@@ -102,7 +102,7 @@ const route = useRoute()
 const total = ref('')
 const tableData = ref('')
 const page = ref(parseInt(route.params.page || 1))
-let imgApi = 'https://api.592.us.kg/liulan/?id=gqbz'
+let imgApi = 'https://api.592.us.kg/api?id=gqbz'
 
 function fenye(current) {
   const host = "https://server.asgardion.space";
