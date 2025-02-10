@@ -460,7 +460,7 @@ function articleImg(id) {
   //       url = res.data.urls.full;
   //     }.bind(this));
   // return url;
-  return imgApi + ',' + id + ')';
+  return imgApi + `&time=${id}`;
 }
 
 </script>
